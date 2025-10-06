@@ -11,5 +11,9 @@ This is my first web development assignment. I used only HTML and CSS to make a 
 - Contact form (no backend)
 - Back to Top link
 
-## Notes
-This is a college assignment(1+2)
+## Details
+> Prabhat Bhatia
+> 2501410006
+> B.Tech CSE Cyber Security(First Semester)
+> 6th October 2025
+> Web Development - Lab Assignment(1+2)
