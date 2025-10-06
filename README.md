@@ -1,4 +1,4 @@
-#<p align="center">My First Portfolio Project</p>
+## <p align="center">My First Portfolio Project</p>
 
 This is my first web development assignment. I used only HTML and CSS to make a simple personal portfolio page.
 
