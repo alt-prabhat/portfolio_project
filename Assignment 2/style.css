@@ -2,7 +2,7 @@
 
 /* --- Color Defination --- */
 :root {
-    --primary-blue: #0040a0;
+    --primary-green: #1ba0008c;
     --light-grey: #f8f9fa;
     --border-color: #dee2e6;
     --text-color: #333;
@@ -18,7 +18,7 @@ body {
 
 /* --- Header --- */
 header {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     color: white;
     padding: 10px;
 }
@@ -66,17 +66,17 @@ section h2 {
 table {
     width: 500px;
     margin: 0 auto; /* Centers the table */
-    border: 1px solid var(--primary-blue);
+    border: 1px solid var(--primary-green);
     border-collapse: collapse;
 }
 
 th, td {
-    border: 1px solid var(--primary-blue);
+    border: 1px solid var(--primary-green);
     padding: 12px;
 }
 
 thead {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     color: white;
 }
 
@@ -100,7 +100,7 @@ thead {
 form {
     max-width: 680px;
     margin: 0 auto; /* center form*/
-    border: 1px solid var(--primary-blue);
+    border: 1px solid var(--primary-green);
     padding: 30px;
     background-color: white;
 }
@@ -125,7 +125,7 @@ form {
 .form-row input,
 .form-row textarea {
     padding: 10px;
-    border: 1px solid var(--primary-blue);
+    border: 1px solid var(--primary-green);
     border-radius: 5px;
     width: 75%;
 }
@@ -136,7 +136,7 @@ textarea {
 }
 
 button[type="submit"] {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     color: white;
     border: none;
     padding: 12px 30px;
@@ -157,7 +157,7 @@ button[type="submit"] {
 
 .back-to-top-btn {
     display: inline-block; /* button styling stuff */
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -167,7 +167,7 @@ button[type="submit"] {
 
 /* --- Footer --- */
 footer {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     padding: 5px;
     margin-top: 40px;
     color: white;
