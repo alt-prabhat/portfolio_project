@@ -81,18 +81,15 @@ thead {
 }
 
 /* --- My Projects --- */
-.project-gallery {
-    display: flex; /* flexbox layout - mdn docs */
-    flex-direction: column; /* vertical stack */
-    align-items: center; 
-    gap: 30px;
-}
 
 .project-card {
     background-color: white;
     border: 1px solid var(--border-color);
     padding: 20px;
     width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px; 
 }
 
 .project-card h3 {
@@ -109,24 +106,28 @@ form {
 }
 
 .form-row {
-    display: flex; /* flexbox alignment - mdn docs */
-    align-items: center;
     margin-bottom: 15px;
+    position: relative;
+    padding-left: 120px;
 }
 
 .form-row label {
     width: 100px;
     text-align: center;
-    margin-right: 20px;
     font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px; 
+    line-height: 40px;
 }
 
 .form-row input,
 .form-row textarea {
-    flex-grow: 1; /* input takes full space (flex concept - mdn docs */
     padding: 10px;
     border: 1px solid var(--primary-blue);
     border-radius: 5px;
+    width: 75%;
 }
 
 textarea {
